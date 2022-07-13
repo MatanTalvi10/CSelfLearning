@@ -12,8 +12,13 @@ void print(char c[]){
 }
 int main()
 {
-    char c[20] = "hello";
-    print(c);
-    printf("%s\n", c);
+
+    int i,j,a[10][10];
+    for(i=0;i<10;i++){
+        for(j=0;j<10;j++){
+            a[i][j] = 7;
+        }
+    }
+    printf("%d\n", a[5][5]);
     return 0;
 }
